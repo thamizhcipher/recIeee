@@ -1,0 +1,75 @@
+nav{
+    background-color: #0b0f3e;
+    border-bottom: 2px solid #FFDF00;
+}
+.clg-logo
+{
+    width: 150px;
+    height: auto;
+}
+
+.dropdown-item
+{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+nav
+{
+    color: white;
+}
+
+.navbar-collapse
+{
+    flex-grow: 0;
+}
+
+.navbar-toggler
+{
+    background-color: white;
+}
+
+.nav-link  
+{
+    margin: 0 1.15rem 0 1.15rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+.nav-link:hover 
+{  
+    color: yellow;
+}
+
+.navbar-nav .nav-link.show 
+{
+    color: white;
+}
+
+.dropdown-menu
+{
+    background-color: #0B0F3E;
+}
+
+@media screen and (max-width:994px) 
+{
+    .navbar-nav
+    {
+        margin-top: 1rem;
+        width: 15rem;
+        height: 25rem;
+        border-radius: 2rem;
+        background-color:#0B0F3E;
+        position: absolute;
+        right: 0;
+        text-align: center;
+    }    
+
+}
+@media screen and (max-width:900px) 
+    {
+        .clg-logo
+        {
+            width: 150px;
+        }    
+    }

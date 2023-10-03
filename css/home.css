@@ -1,0 +1,192 @@
+body
+{
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.check
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h1
+{
+    text-align: center;
+}
+
+#typing-content
+{
+    padding-top: 15rem;
+    color: gold;
+    text-align: center;
+    font-size: 8rem;
+}
+
+.typed-cursor
+{
+    opacity: 0;
+}
+.head-container
+{
+    width: 100%;
+    height: 43rem;
+}
+
+.rec
+{
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    color: #fefefe;
+    text-align: center;
+    -webkit-animation: flicker 2s infinite;
+    text-shadow:
+    0 0 7px #84118c,
+    0 0 10px #84118c,
+    0 0 21px #84118c,
+    0 0 42px #84118c,
+    0 0 82px #84118c,
+    0 0 92px #84118c,
+    0 0 102px #84118c,
+    0 0 151px #84118c;
+}
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+
+/* HOME SECTION */
+
+.abt-intro
+{
+    text-align: center;
+    color: white;
+    padding:5%;
+    border:5px solid white;
+    border-radius: 1.25rem;
+    margin: auto 10rem;
+    height: 50%;
+}
+
+.abt-intro h1
+{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.abt-intro p
+{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* ABOUT SECTION */
+
+#about-us
+{
+    color: white;
+    margin: 6rem 13rem;
+}
+
+.about-us-outer
+{
+    padding: 3%;
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+    background-color:#0B0F3E;
+    border-radius: 1.25rem;
+}
+.tab-content
+{
+    margin-top: 1.25rem;
+}
+
+.about-us-p
+{
+    display: none;
+}
+
+
+@media screen and (max-width:994px) 
+{
+    .navbar-nav
+    {
+        margin-top: 1rem;
+        width: 15rem;
+        height: 25rem;
+        border-radius: 2rem;
+        background-color:#0B0F3E;
+        position: absolute;
+        right: 0;
+        text-align: center;
+    }    
+
+    .rec
+    {
+        font-size: 3rem;
+    }
+    #typing-content
+    {
+        font-size: 5rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) 
+{
+    .abt-intro
+    {
+            margin: 1.25rem;
+    }
+    #about-us
+    {
+        margin: 6rem 1rem;
+    }   
+}
+
+@media screen and (min-width:768px) 
+{
+    #about-us
+    {
+        margin: 3rem;
+    }    
+}
+
+@media only screen and (max-width: 850px) and (min-width : 300px ){
+    footer .row{
+        text-align: -webkit-center;
+    }  
+}
+
+@media screen and (max-width : 850px) {
+    
+    .about-us-l{
+        display: none;
+    }
+    .about-us-p{
+        margin-top: 1.25rem;
+        display: block;
+    }
+    }
+    
+    .accordion{
+        --bs-accordion-btn-focus-box-shadow : none;
+        --bs-accordion-active-bg : #0B0F3E ;
+        color: white;
+        --bs-accordion-active-color : white;
+    }
+
+
